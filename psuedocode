@@ -1,0 +1,1 @@
+- Listen for mousedown and if mouse is being dragged, and then allow for a draw till mouseup

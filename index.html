@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Drawing Tool</title>
+</head>
+<body>
+
+    <canvas id="canvas_2"></canvas>
+    <div class="controls">
+        <p>Controls</p>
+        <div class="size-container inputs">
+            <label for="size">Size</label>
+            <input type="range" name="size" id="size" value="10" min="3" max="15">
+            <output type="number" id="size-output">10</output>
+        </div>
+        <div class="color-container inputs">
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" value="#ffffff">
+        </div>
+        <button id="clear-btn">Clear</button>
+    </div>
+    
+    <script src="practice.js" type="module"></script>
+</body>
+</html>
